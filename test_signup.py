@@ -1,6 +1,6 @@
 import pytest
 from fastapi.testclient import TestClient
-from signup import app  # Import your signup FastAPI app
+from signup import app  # Import the signup FastAPI app
 
 client = TestClient(app)
 
