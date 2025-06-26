@@ -7,7 +7,7 @@ client = TestClient(app)
 def test_change_password_success():
     """
     Test that password change succeeds with correct current password.
-    Assumes user with email 'Confident@example.com' and current password 'TheGoat' exists.
+    Assumes user with email 'Test123@example.com' and current password 'correct_password' exists.
     """
     data = {
         "email": "Test123@example.com",
