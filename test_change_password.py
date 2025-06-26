@@ -10,9 +10,9 @@ def test_change_password_success():
     Assumes user with email 'Confident@example.com' and current password 'TheGoat' exists.
     """
     data = {
-        "email": "Confident@example.com",
-        "current_password": "TheGoat",
-        "new_password": "LoveLife123"
+        "email": "Test123@example.com",
+        "current_password": "correct_password",
+        "new_password": "correct_password"
     }
     response = client.post("/change-password", json=data)
     assert response.status_code == 200
@@ -23,7 +23,7 @@ def test_change_password_wrong_current():
     Test that password change fails with incorrect current password.
     """
     data = {
-        "email": "Confident@example.com",
+        "email": "Test123@example.com",
         "current_password": "GreatLife123",
         "new_password": "UltimateLife123"
     }
