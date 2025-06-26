@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, Depends
 from pydantic import BaseModel, EmailStr
 from sqlalchemy.orm import Session
-from database import Base, engine, get_db, User # type: ignore
+from database import Base, engine, get_db, User
 from passlib.hash import bcrypt
 from sqlalchemy.exc import IntegrityError
 from contextlib import asynccontextmanager
