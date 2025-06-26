@@ -8,10 +8,10 @@ client = TestClient(app)
 def test_login_success():
     """
     Test that login succeeds with correct email and password.
-    Assumes a user with email 'test@example.com' and password 'correct_password' exists in the test DB.
+    Assumes a user with email 'Test123@example.com' and password 'correct_password' exists in the test DB.
     """
     login_data = {
-        "email": "test@example.com",
+        "email": "Test123@example.com",
         "password": "correct_password"
     }
     # Send POST request to /login endpoint with JSON payload
@@ -45,7 +45,7 @@ def test_login_wrong_password():
     Test that login fails with an incorrect password.
     """
     login_data = {
-        "email": "test@example.com",
+        "email": "Test123@example.com",
         "password": "wrong_password"
     }
     # POST request with wrong password
