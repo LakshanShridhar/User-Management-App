@@ -46,9 +46,9 @@ A User Management API with secure sign-up, login, password change, and profile e
 
 3. Run the FastAPI app:
 
-   - uvicorn <service>:app --reload
+   - uvicorn service:app --reload
 
-   Replace <service> with the name of the Python file for the part you want to test (e.g., login, signup, change_password, or profile_edit). For example:
+   Replace service with the name of the Python file for the part you want to test (e.g., login, signup, change_password, or profile_edit). For example:
 
    - To run login service:
      - uvicorn login:app --reload
