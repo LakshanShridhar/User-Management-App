@@ -37,20 +37,28 @@ A User Management API with secure sign-up, login, password change, and profile e
 
 1. Clone the repository:
 
-   git clone https://github.com/LakshanShridhar/User-Management-App.git
-   cd User-Management-App
+   - git clone https://github.com/LakshanShridhar/User-Management-App.git
+   - cd User-Management-App
 
 2. Install dependencies:
 
-   pip install -r requirements.txt
+   - pip install -r requirements.txt
 
 3. Run the FastAPI app:
 
-   uvicorn main:app --reload
+   - uvicorn <service>:app --reload
+
+   Replace <service> with the name of the Python file for the part you want to test (e.g., login, signup, change_password, or profile_edit). For example:
+
+   - To run login service:
+     - uvicorn login:app --reload
+
+   - To run signup service:
+     - uvicorn signup:app --reload
 
 4. Run tests:
 
-   pytest
+   - pytest
 
 ## API Endpoints
 
