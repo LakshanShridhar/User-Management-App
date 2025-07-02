@@ -4,21 +4,23 @@ A User Management API with secure sign-up, login, password change, and profile e
 
 ## Project Structure
 
-User-Management-App/
-├── .gitignore
-├── LICENSE
-├── README.md
-├── change_password.py
-├── database.py
-├── login.py
-├── profile_edit.py
-├── requirements.txt
-├── signup.py
-├── test_change_password.py
-├── test_login.py
-├── test_profile_edit.py
-├── test_signup.py
-└── users.db
+| File/Folder            | Description                |
+|-----------------------|----------------------------|
+| User-Management-App/   | Root project directory     |
+| .gitignore            | Git ignore rules           |
+| LICENSE               | Project license            |
+| README.md             | Project readme             |
+| change_password.py    | Change password script      |
+| database.py           | Database connection/script |
+| login.py              | User login script          |
+| profile_edit.py       | Profile editing script     |
+| requirements.txt      | Python dependencies list   |
+| signup.py             | User signup script         |
+| test_change_password.py | Tests for change password  |
+| test_login.py         | Tests for login functionality |
+| test_profile_edit.py  | Tests for profile editing  |
+| test_signup.py        | Tests for signup           |
+| users.db              | SQLite database file       |
 
 ## Features
 
@@ -52,12 +54,12 @@ User-Management-App/
 
 ## API Endpoints
 
-Endpoint            Method   Description
-------------------  -------  ---------------------------------
-/signup             POST     Create a new user account
-/login              POST     User login
-/change-password    POST     Change user password
-/profile-edit       POST     Edit user profile information
+| Endpoint         | Method | Description                   |
+|------------------|--------|-------------------------------|
+| /signup          | POST   | Create a new user account      |
+| /login           | POST   | User login                    |
+| /change-password | POST   | Change user password          |
+| /profile-edit    | POST   | Edit user profile information |
 
 ## Contributing
 
