@@ -43,6 +43,8 @@ A User Management API with secure sign-up, login, password change, and profile e
 2. Install dependencies:
 
    - pip install -r requirements.txt
+     - Note: The package versions specified in requirements.txt are fixed to ensure compatibility.
+Over time, you may want to update these packages to their latest versions for new features or security patches.
 
 3. Run the FastAPI app:
 
