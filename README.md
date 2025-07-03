@@ -45,6 +45,7 @@ A User Management API with secure sign-up, login, password change, and profile e
    - pip install -r requirements.txt
      - Note: The package versions specified in requirements.txt are fixed to ensure compatibility.
 Over time, you may want to update these packages to their latest versions for new features or security patches.
+     - Note: If `pip` refers to Python 2 on your system, use `pip3` instead.
 
 3. Run the FastAPI app:
 
